@@ -91,6 +91,7 @@ body{
     font-style: normal;
     color:black;
     background:white;
+
 }
 
 /*===========HEADER=======*/
@@ -471,24 +472,27 @@ display: none;
 .layer>.content-wraper>nav
 {
   height: 50px;
-
+  padding:0;
   margin-top: 40px;
   background: #32425c;
   border-bottom: 3px solid #293449;
-
+  
 }
 
+.layer>.content-wraper>nav>ul{
+  text-align: center;
+  padding: 0;
+}
 
 .layer>.content-wraper>nav>ul>li>a{
   text-decoration: none;
   font-size:17px;
-    font-family: 'Cuprum', sans-serif;
-    font-weight:normal;
- display: block;
+  font-family: 'Cuprum', sans-serif;
+  font-weight:normal;
+  display: block;
   color: #f1f2f4;
-
-padding: 16px 31px;
-margin: 0;
+  padding: 16px 31px;
+  margin: 0;
 
 }
 

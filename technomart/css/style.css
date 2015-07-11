@@ -484,7 +484,7 @@ display: none;
   text-align: center;
   padding: 0;
   list-style: none;
-  outline: 1px solid red;
+
 
 }
 .layer>.content-wraper>nav>ul>li{
@@ -519,11 +519,9 @@ display: none;
   color: #8e939c;
 }
 .face-content{
-  outline: 1px solid red;
-
- 
-  margin-top:0px;
-  height: 700px;
+  
+  margin-top:40px;
+  height: 440px;
   
 
 }
@@ -531,7 +529,6 @@ display: none;
 /*=======Content===============*/
 
 .face-content>figure{
-  outline: 1px solid red;
   width: 297px;
   height: 125px;
   margin: 10px;
@@ -560,19 +557,16 @@ display: none;
   float: left;
   position: relative;
  
-
-
 }
 
 .face-content>figure:nth-child(5),
 .face-content>figure:nth-child(6){
-  
-
+ 
 }
 
 .face-content>figure:nth-child(6){
 display: block;
-margin-bottom: 299px;
+
 }
 
 
@@ -758,7 +752,7 @@ background: #f6b22d url('../img/delivery.png') no-repeat 85% 50%;
   color: white;
   text-transform: uppercase;
   background: #ee3643;
-  padding:15px 44px;
+padding: 10px 44px;
   border-radius: 3px;
   margin-left: 20px;
 }
@@ -860,3 +854,226 @@ background: #f6b22d url('../img/delivery.png') no-repeat 85% 50%;
 
 display:none;
 } 
+
+
+/*=======TOP GOODS=====*/
+
+
+.title-top-goods {
+  height: 80px;
+  background: #f7f3ec;
+  outline: 1px solid red;
+ 
+}
+
+.title-top-goods>h2{
+  font-family: 'Cuprum', sans-serif;
+  color:#32425c;
+  font-size:30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-left: 20px;
+ float:left;
+
+  
+}
+
+.title-top-goods>.slide-btn{
+  margin:0;
+  margin-top: 15px;
+  
+  margin-right: 20px;
+  float:right;
+
+ 
+ }
+
+.clearfix::after{
+  content: ' ';
+  display: table;
+  clear: both;
+}
+
+.item-top{
+  width: 210px;
+  height: 318px;
+  outline: 1px solid #e5e5e5;
+  text-align: center;
+  position: relative;
+  margin:14px;
+}
+
+.item-top:nth-child(1){
+  margin-left: 0;
+}
+
+.item-top:nth-child(4){
+  margin-right: 0;
+}
+
+.item-top>img{
+
+  height: 132px;
+  width: 170px;
+  margin-top: 14px;
+
+}
+
+.item-top>h3{
+  font-family: 'PTSans', sans-serif;
+  color:black;
+  font-size:18px;
+  line-height: 20px;
+   font-weight: bold;
+   padding-top:3px;
+    height: 80px;
+  
+}
+
+.item-top>p{
+  font-family: 'PTSans', sans-serif;
+  color:#999999;
+  font-size:17px;
+  line-height: 20px;
+   font-weight: bold;
+   text-decoration: line-through;
+   margin-top: 0;
+   position: absolute;
+   bottom:15%;
+   left:70px;
+
+}
+
+.item-top>.slide-btn-div{
+  text-decoration: none;
+  font-size:14px;
+  line-height:18px;
+  font-family: 'PTSans', sans-serif;
+  font-weight:bold;
+  color: white;
+  text-transform: uppercase;
+  background: #ee3643;
+padding: 10px 44px;
+  border-radius: 3px;
+ width: 64px;
+ height: 17px;
+margin-left: 35px;
+position: relative;
+
+ 
+}
+
+
+.item-top>.slide-btn-div:after{
+  content: "";
+  display: block;
+  width: 0px;
+  height: 1px;
+bottom: 0;
+top: 0;
+right: 0;
+left: 125px;
+ position: absolute;
+   background: white;
+  border: 18px solid transparent;
+  border-left: 24px solid #ee3643;
+  background: white;
+   
+}
+
+ .item-top:hover{
+-webkit-box-shadow: -5px 7px 43px 4px rgba(0,0,0,0.26);
+-moz-box-shadow: -5px 7px 43px 4px rgba(0,0,0,0.26);
+box-shadow: -5px 7px 43px 4px rgba(0,0,0,0.26);
+}
+
+.item-top:hover .item-buttons{
+
+opacity: 1;
+}
+
+.item-buttons>.buy,
+.item-buttons>.bookmark {
+
+  font-size:14px;
+  line-height:18px;
+ font-family: 'Cuprum', sans-serif;
+  font-weight:normal;
+  color: white;
+  text-transform: uppercase;
+  background: #63a63e;
+  border-radius: 3px;
+  width: 120px;
+  height: 45px;
+  outline: none;
+  border:none;
+  border-bottom: 3px solid #367315;
+  margin:10px;
+
+}
+
+.item-buttons {
+
+  width: 206px;
+  height: 145px;
+  position: absolute;
+  bottom: 50%;
+  background: white;
+  z-index: 1;
+  opacity: 0;
+
+}
+
+.items-top>.item-top>.new>img {
+  position: absolute;
+  z-index: 2;
+  right:0px;
+}
+
+.item-top:hover .picture-item {
+  opacity: 0;
+}
+
+.buy:before{
+  content:'\62';
+  font-family:"symbols-technomart";
+  padding-right: 5px;
+  text-transform: none;
+  color: #92c178;
+}
+
+.item-buttons>.bookmark{
+  background: white;
+  color:#32425c;
+  border-bottom: none;
+  border:3px solid #63a63e;
+}
+
+.item-buttons>.bookmark:hover{
+  border-color: #32425c;
+}
+
+
+.item-buttons>.bookmark:active{
+  border-color: #c1c6ce;
+  color: #c1c6ce;
+}
+
+.buy:hover {
+  background: #5fbb2d;
+  color: white;
+}
+
+.buy:active{
+  background: #92c178;
+  color:white;
+  border-bottom: none;
+}
+
+.buy:hover:before{
+color:white;
+}
+
+.item-top{
+  display: inline-block;
+}

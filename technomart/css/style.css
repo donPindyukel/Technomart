@@ -880,7 +880,7 @@ display:none;
 
 .title-top-goods>.slide-btn{
   margin:0;
-  margin-top: 15px;
+  margin-top: 20px;
   
   margin-right: 20px;
   float:right;
@@ -1076,4 +1076,55 @@ color:white;
 
 .item-top{
   display: inline-block;
+}
+
+/*=======TOP manufacturers=====*/
+.items-manufacturers .item-top {
+
+  
+  height: 140px;
+  margin:10px;
+}
+
+.items-manufacturers>.title-top-goods>a{
+  padding: 10px 58px;
+  }
+
+.items-manufacturers .item-top a {
+  
+  display: block;
+  height: 139px;
+  width: 208px;
+  margin:0;
+ 
+}
+
+.items-manufacturers>.item-top:nth-child(2)>a{
+   background: url('../img/bosch.png') no-repeat center;
+}
+.items-manufacturers>.item-top:nth-child(3)>a{
+   background: url('../img/makita.png') no-repeat center;
+}
+.items-manufacturers>.item-top:nth-child(4)>a{
+   background: url('../img/dewalt.png') no-repeat center;
+}
+.items-manufacturers>.item-top:nth-child(5)>a{
+   background: url('../img/interskol.png') no-repeat center;
+}
+.items-manufacturers>.item-top:nth-child(6)>a{
+   background: url('../img/hitachi.png') no-repeat center;
+}
+.items-manufacturers>.item-top:nth-child(7)>a{
+   background: url('../img/lg.png') no-repeat center;
+}
+.items-manufacturers>.item-top:nth-child(8)>a{
+   background: url('../img/aeg.png') no-repeat center;
+}
+.items-manufacturers>.item-top:nth-child(9)>a{
+   background: url('../img/metabo.png') no-repeat center;
+}
+
+.items-manufacturers>.title-top-goods{
+  margin:10px auto;
+
 }

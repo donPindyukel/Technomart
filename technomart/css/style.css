@@ -142,7 +142,7 @@ overflow: hidden;
    border-bottom: 5px solid #b52933;
     padding-top: 10px;
     position: relative; 
-    z-index: 1000;
+    z-index: 10;
 
 
 }
@@ -1085,7 +1085,8 @@ color:white;
 
   height: 140px;
   margin:10px;
-  outline: 1px solid #e5e5e5;
+
+
 }
 
 .items-manufacturers>.title-top-goods>a{
@@ -1422,7 +1423,7 @@ display: none;
 -webkit-box-shadow: 0 6px 32px black;
 -moz-box-shadow: 0 6px 32px black;
 box-shadow: 0 6px 32px black;
-display: none;
+display:none;
 }
 
 .modal-content-write-us:after{
@@ -1533,3 +1534,193 @@ border: 1px solid #f1f1f1;
     margin: 0;
   }
 
+/*===============FOOOOOTEEEER===========*/
+
+.part-first-footer{
+ 
+  margin-top:100px;
+  background: #32425c;
+  height: 160px;
+  border:1px solid #32425c;
+}
+
+.part-first-footer ul{
+  list-style: none;
+
+ margin-top: 0;
+  padding: 0;
+  margin-bottom: 15px;
+
+}
+
+.part-first-footer ul li{
+  display: inline-block;
+ 
+  margin-left: 60px;
+  font-size:18px;
+ 
+}
+
+.part-first-footer ul:nth-child(1) li:nth-child(2) a,
+.part-first-footer ul:nth-child(1) li:nth-child(3) a,
+.part-first-footer ul:nth-child(1) li:nth-child(4) a,
+.part-first-footer ul:nth-child(1) li:nth-child(5) a,
+.part-first-footer ul:nth-child(1) li:nth-child(6) a,
+.part-first-footer ul:nth-child(2) li {
+   
+    font-size: 16px;
+    font-family: 'Cuprum', sans-serif;
+    line-height: 24px;
+    font-weight: normal;
+    font-style: normal;
+    color:white;
+    text-transform: none;
+    text-decoration: none;
+    position: relative;
+    top:15px;
+
+   
+}
+
+.part-first-footer ul:nth-child(1) li:nth-child(2) a:hover,
+.part-first-footer ul:nth-child(1) li:nth-child(3) a:hover,
+.part-first-footer ul:nth-child(1) li:nth-child(4) a:hover,
+.part-first-footer ul:nth-child(1) li:nth-child(5) a:hover,
+.part-first-footer ul:nth-child(1) li:nth-child(6) a:hover,
+.part-first-footer ul:nth-child(2) li a:hover {
+   
+    text-decoration: underline;  
+}
+
+.part-first-footer ul:nth-child(1) li:nth-child(2) a:active,
+.part-first-footer ul:nth-child(1) li:nth-child(3) a:active,
+.part-first-footer ul:nth-child(1) li:nth-child(4) a:active,
+.part-first-footer ul:nth-child(1) li:nth-child(5) a:active,
+.part-first-footer ul:nth-child(1) li:nth-child(6) a:active{
+
+color:#929caa;
+text-decoration: none;
+}
+
+.part-first-footer ul:nth-child(2) li a:active{
+  color:#998a6e;
+text-decoration: none;
+}
+
+
+.part-first-footer ul:nth-child(2) li a{
+  color: #ffd180;
+   text-decoration: none;
+   text-align: top;
+}
+
+.part-first-footer ul li:nth-child(1){
+  margin-left: 0;
+
+}
+
+.part-first-footer ul:nth-child(2) li:nth-child(1){
+  width: 295px;
+ margin-right: 35px;
+ 
+
+}
+
+.part-first-footer ul:nth-child(1) li:nth-child(1){
+  margin-right: 80px;
+  text-align: center;
+  margin-top: 0;
+
+}
+
+.part-second-footer{
+
+  background: #293449;
+  height: 105px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.part-second-footer ul{
+  margin-top:48px;
+  list-style: none;
+
+  padding-top: 25px;
+
+}
+
+.part-second-footer ul li{
+    font-size: 16px;
+    font-family: 'Cuprum', sans-serif;
+    line-height: 24px;
+    font-weight: normal;
+    font-style: normal;
+    color:white;
+    text-transform: none;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.part-second-footer>.content-wraper>ul>li:nth-child(1){
+  width:240px;
+  text-align: left;
+  margin-right: 70px;
+}
+
+.social-btn{
+  width: 40px;
+  height: 40px;
+  background: #212a3a;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 0px;
+  position: relative;
+  bottom: 15px;
+  cursor: pointer;
+
+}
+
+.social-btn:hover{
+background:#ee3643;
+}
+
+.vk:after{
+  content: '\76';
+  font-family: "symbols-technomart";
+  color: white;
+   font-size: 23px;
+    line-height: 35px;
+
+}
+
+.facebook:after{
+  content: '\66';
+  font-family: "symbols-technomart";
+  color: white;
+   font-size: 23px;
+    line-height: 35px;
+
+}
+
+.insta:after{
+  content: '📷';
+  font-family: "symbols-technomart";
+  color: white;
+   font-size: 23px;
+    line-height: 35px;
+
+}
+
+.info-footer>span{
+  color:#ffd180;
+}
+
+.info-footer:hover>span{
+  text-decoration: underline;
+}
+
+.info-footer:active>span{
+  text-decoration: none;
+  color:#e13643;
+}
